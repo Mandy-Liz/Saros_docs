@@ -23,8 +23,9 @@
 .cards-title {
   margin: 3em 0;
   text-align: center;
+  color: #6946E2;
 }
 
 .card-group {
-  margin: 0 2em;
+  padding: 0 4em;
 }
