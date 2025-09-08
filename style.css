@@ -21,9 +21,10 @@
 }
 
 .cards-title {
-  margin: 4em auto;
+  margin: 3em 0;
+  text-align: center;
 }
 
 .card-group {
-  padding: 2em;
+  margin: 0 2em;
 }
