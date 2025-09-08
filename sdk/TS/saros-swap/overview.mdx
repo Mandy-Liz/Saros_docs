@@ -29,7 +29,7 @@ The SDK provides methods to swap tokens and add/remove liquidity from pools.
 
 Internally, it uses SarosSwap AMM smart contracts to calculate pool ratios and generate Solana instructions.
 
-Example use cases:
+**Example usecases:**
 
 - Swap SOL → USDC
 
@@ -44,7 +44,7 @@ The staking module allows users to stake Saros LP tokens or SAROS governance tok
 
 The SDK creates staking instructions that interact with Saros Staking smart contracts.
 
-Example use cases:
+**Example usecases:**
 
 - Stake SAROS to earn protocol rewards
 
@@ -55,7 +55,7 @@ Example use cases:
 
 After providing liquidity and receiving LP tokens, users can deposit LP tokens into a Farm to earn yield (usually in SAROS or partner tokens).
 
-The SDK has functions to:
+**Example usecases:**
 
 - Deposit LP tokens into a farm
 
@@ -71,3 +71,14 @@ Saros SDK can be used to:
 - Create wallet integrations with Saros functions (swap, stake, farm).
 
 - Automate yield farming strategies (e.g., auto-compound rewards).
+
+
+Module / Function	Purpose
+getSwapAmountSaros()	Get quote on swap including slippage impact
+swapSaros()	Execute a swap transaction
+createPool()	Initialize a new liquidity pool
+getPoolInfo()	Fetch pool details like liquidity or price
+depositAllTokenTypes()	Add both sides of liquidity in one call
+withdrawAllTokenTypes()	Withdraw both sides from liquidity pool
+Utility methods	Convert balances, read mint/account info
+SarosFarmService / SarosStakeServices	Interact with farming and staking mechanisms
