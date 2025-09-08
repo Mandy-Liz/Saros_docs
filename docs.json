@@ -83,47 +83,47 @@
       {
         "tab": "SDKs",
              "groups": [
-      {
-        "group": "Saros SDks",
-        "pages": [
-          "SDK/sdk-overview"
-        ]
-      },
-      {
-        "group": "[TS] AMM SDK",
-        "pages": [
-          "SDK/TS/AMM/overview",
-          "SDK/TS/AMM/getting-started"
-        ]
-      },
-      {
-        "group": "[TS] Stake SDK",
-        "pages": [
-          "SDK/TS/Stake/overview",
-          "SDK/TS/Stake/getting-started"        
-        ]
-      },
-      {
-        "group": "[TS] Farm SDK",
-        "pages": [
-          "SDK/TS/Farm/overview",
-          "SDK/TS/Farm/getting-started"        
-        ]
-      },
-      {
-        "group": "[TS] DLMM SDK",
-        "pages": [
-          "SDK/TS/DLMM/overview",
-          "SDK/TS/DLMM/getting-started"        
-        ]
-      },
-      {
-        "group": "[Rust] DLMM SDK",
-        "pages": [
-          "SDK/Rust/DLMM/overview",
-          "SDK/Rust/DLMM/getting-started"        
-        ]
-      }
+                {
+                  "group": "Saros SDks",
+                  "pages": [
+                    "sdk/sdk-overview"
+                  ]
+                },
+                {
+                  "group": "[TS] AMM SDK",
+                  "pages": [
+                    "sdk/TS/AMM/overview",
+                    "sdk/TS/AMM/getting-started"
+                  ]
+                },
+                {
+                  "group": "[TS] Stake SDK",
+                  "pages": [
+                    "SDK/TS/Stake/overview",
+                    "SDK/TS/Stake/getting-started"        
+                  ]
+                },
+                {
+                  "group": "[TS] Farm SDK",
+                  "pages": [
+                    "sdk/TS/Farm/overview",
+                    "sdk/TS/Farm/getting-started"        
+                  ]
+                },
+                {
+                  "group": "[TS] DLMM SDK",
+                  "pages": [
+                    "sdk/TS/DLMM/overview",
+                    "sdk/TS/DLMM/getting-started"        
+                  ]
+                },
+                {
+                  "group": "[Rust] DLMM SDK",
+                  "pages": [
+                    "sdk/Rust/DLMM/overview",
+                    "sdk/Rust/DLMM/getting-started"        
+                  ]
+                }
     ]
       },
         {
