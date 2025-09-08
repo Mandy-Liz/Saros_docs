@@ -19,3 +19,11 @@
     font-size: 28px;
     font-weight: 500;
 }
+
+.cards-title {
+  marging: 4em auto;
+}
+
+.card-group {
+  padding: 2em;
+}
