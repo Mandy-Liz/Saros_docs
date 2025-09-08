@@ -90,24 +90,10 @@
                   ]
                 },
                 {
-                  "group": "[TS] AMM SDK",
+                  "group": "[TS] SarosSwap",
                   "pages": [
-                    "sdk/TS/AMM/overview",
-                    "sdk/TS/AMM/getting-started"
-                  ]
-                },
-                {
-                  "group": "[TS] Stake SDK",
-                  "pages": [
-                    "SDK/TS/Stake/overview",
-                    "SDK/TS/Stake/getting-started"        
-                  ]
-                },
-                {
-                  "group": "[TS] Farm SDK",
-                  "pages": [
-                    "sdk/TS/Farm/overview",
-                    "sdk/TS/Farm/getting-started"        
+                    "sdk/TS/saros-swap/overview",
+                    "sdk/TS/saros-swap/getting-started"
                   ]
                 },
                 {

@@ -1,0 +1,73 @@
+---
+title: 'SarosSwap SDK'
+description: 'Saros SDK for swaps, staking and farming.'
+---
+
+## Overview
+The Saros SDK is a TypeScript library that lets developers interact with Saros Finance protocols on Solana. It abstracts away Solana’s low-level instructions and provides ready-to-use functions for:
+
+- AMM (Automated Market Maker / Swap)
+
+- Staking
+
+- Farming (liquidity mining)
+
+Instead of manually building and sending Solana transactions, developers can use the SDK to generate the right instructions and interact with Saros smart contracts easily.
+
+
+## How it works (Features)
+
+The Saros SDK is designed to simplify integration with core DeFi functions such as swaps, farming, and staking.
+
+Developers use it to integrate DeFi capabilities into their applications, be it dApps, dashboards, bots, or scripts. Without needing to handle low-level Solana transactions themselves.
+
+*Below is how it works for each feature:*
+
+### 1. AMM (Swap / Liquidity)
+
+The SDK provides methods to swap tokens and add/remove liquidity from pools.
+
+Internally, it uses SarosSwap AMM smart contracts to calculate pool ratios and generate Solana instructions.
+
+Example use cases:
+
+- Swap SOL → USDC
+
+- Provide liquidity to SOL/USDC pool
+
+- Remove liquidity and receive underlying assets
+
+
+### 2. Stake
+
+The staking module allows users to stake Saros LP tokens or SAROS governance tokens into specific staking pools.
+
+The SDK creates staking instructions that interact with Saros Staking smart contracts.
+
+Example use cases:
+
+- Stake SAROS to earn protocol rewards
+
+- Stake LP tokens from liquidity pools for extra yield.
+
+
+### 3. Farm
+
+After providing liquidity and receiving LP tokens, users can deposit LP tokens into a Farm to earn yield (usually in SAROS or partner tokens).
+
+The SDK has functions to:
+
+- Deposit LP tokens into a farm
+
+- Withdraw tokens and earned rewards
+
+
+## Use Cases
+
+Saros SDK can be used to:
+
+- Build a DeFi dashboard to show swaps, pool info, staking rewards, etc.
+
+- Create wallet integrations with Saros functions (swap, stake, farm).
+
+- Automate yield farming strategies (e.g., auto-compound rewards).
