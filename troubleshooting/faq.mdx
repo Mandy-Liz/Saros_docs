@@ -19,8 +19,32 @@ description: 'Every question about Saros answered'
   - Our contracts are Solscan confirmed, so you know exactly that what you see is what you get. See more in detail: https://github.com/coin98/saros-sdk#readme.
   </Accordion>
 
-  <Accordion title="Advanced features" icon="alien-8bit">
-    Add icons to make accordions more visually distinct and scannable.
+  <Accordion title="Why did my transaction fail?">
+    There are four main reasons that lead to your failed swap order on SarosSwap:
+
+    ## The number of tokens is insufficient for a swap
+
+    => You don't have enough coins/ tokens balance compared with your entered amount. Please reduce the token amount (should be smaller a little bit than the quantity you are having in the account) or deposit more coins/ tokens to the wallet.
+
+    ## Trading tokens with an insufficient balance of the gas fee
+
+    => Users don’t have SOL on Solana Wallet to pay for the gas fee or the amount of SOL is not enough to conduct a swapping order. Although SarosSwap has integrated the gas fee optimization mechanism but swapping via AMM goes through many routes and costs a lot of fees. So remember to save yourself a decent amount of this coin/token to avoid interrupting your transaction.
+
+    ## Trading tokens with the too low gas fee
+    
+  => Low gas fee leads to slow network and time-out. Also, transaction fees can be unexpectedly high when the network is congested. If you have approved your transaction but still fail, you just need to swap with the same amount of token again without spending any extra approval fee. Users should refer to the average transaction fees on blockchain explorers to adjust the reasonable gas fee.
+
+  ## Trading tokens with low liquidity or during a volatile market
+
+  => The tokens you're trying to swap are probably small-cap tokens that few people are trading or you're trying to buy or sell tokens during a big price movement. Although the default Slippage on SarosSwap is set at the standard rate of 0.5%, which is quite safe and applicable to most coins on the market, in the case of volatile markets or low-liquidity pools, users can complete the transactions faster and avoid failures by accepting a higher slippage and slippage tolerance percentage.
+
+<Note>
+  
+- You can check your transaction status on https://solscan.io/
+
+- Avoid trading when the market has major fluctuations.
+</Note>
+
   </Accordion>
 
   <Accordion title="Troubleshooting">
