@@ -116,7 +116,7 @@
                         ]
                     },
                    {
-                        "dropdown": "Saros Token",
+                        "group": "Saros Token",
                         "pages": [
                             "introduction/saros-intro",
                             "introduction/saros-dlmm",
