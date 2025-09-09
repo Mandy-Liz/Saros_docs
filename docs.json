@@ -72,6 +72,75 @@
                     "/index"
                 ]
             },
+          {
+                "tab": "Introduction",
+                 "groups": [
+                    {
+                        "group": "Get to know Saros",
+                        "pages": [
+                            "introduction/saros-intro",
+                            "introduction/saros-dlmm",
+                            "introduction/saros-amm"
+                        ]
+                    },
+                   {
+                        "group": "Saros DLMM",
+                        "pages": [
+                            "introduction/saros-intro",
+                            "introduction/saros-dlmm",
+                            "introduction/saros-amm"
+                        ]
+                    },
+                   {
+                        "group": "Saros AMM",
+                        "pages": [
+                            "introduction/saros-intro",
+                            "introduction/saros-dlmm",
+                            "introduction/saros-amm"
+                        ]
+                    },
+                   {
+                        "group": "Saros Garden",
+                        "pages": [
+                            "introduction/saros-intro",
+                            "introduction/saros-dlmm",
+                            "introduction/saros-amm"
+                        ]
+                    },
+                   {
+                        "group": "Saros Swap",
+                        "pages": [
+                            "introduction/saros-intro",
+                            "introduction/saros-dlmm",
+                            "introduction/saros-amm"
+                        ]
+                    },
+                   {
+                        "dropdown": "Saros Token",
+                        "pages": [
+                            "introduction/saros-intro",
+                            "introduction/saros-dlmm",
+                            "introduction/saros-amm"
+                        ]
+                    },
+                   {
+                        "group": "Audits",
+                        "pages": [
+                            "introduction/saros-intro",
+                            "introduction/saros-dlmm",
+                            "introduction/saros-amm"
+                        ]
+                    },
+                   {
+                        "group": "Legal",
+                        "pages": [
+                            "introduction/saros-intro",
+                            "introduction/saros-dlmm",
+                            "introduction/saros-amm"
+                        ]
+                    }
+                ]
+            },
             {
                 "tab": "SDKs",
                 "groups": [
