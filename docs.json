@@ -74,9 +74,9 @@
             },
             {
                 "tab": "Introduction",
-                 "groups": [
+                 "dropdowns": [
                     {
-                        "group": "Get to know Saros",
+                        "dropdown": "Get to know Saros",
                         "pages": [
                             "introduction/saros-intro",
                             "introduction/saros-dlmm",
@@ -84,7 +84,7 @@
                         ]
                     },
                    {
-                        "group": "Saros DLMM",
+                        "dropdown": "Saros DLMM",
                         "pages": [
                             "introduction/saros-intro",
                             "introduction/saros-dlmm",
@@ -92,7 +92,7 @@
                         ]
                     },
                    {
-                        "group": "Saros AMM",
+                        "dropdown": "Saros AMM",
                         "pages": [
                             "introduction/saros-intro",
                             "introduction/saros-dlmm",
@@ -100,7 +100,7 @@
                         ]
                     },
                    {
-                        "group": "Saros Garden",
+                        "dropdown": "Saros Garden",
                         "pages": [
                             "introduction/saros-intro",
                             "introduction/saros-dlmm",
@@ -108,7 +108,7 @@
                         ]
                     },
                    {
-                        "group": "Saros Swap",
+                        "dropdown": "Saros Swap",
                         "pages": [
                             "introduction/saros-intro",
                             "introduction/saros-dlmm",
@@ -116,7 +116,7 @@
                         ]
                     },
                    {
-                        "group": "Saros Token",
+                        "dropdown": "Saros Token",
                         "pages": [
                             "introduction/saros-intro",
                             "introduction/saros-dlmm",
@@ -132,7 +132,7 @@
                         ]
                     },
                    {
-                        "group": "Legal",
+                        "dropdown": "Legal",
                         "pages": [
                             "introduction/saros-intro",
                             "introduction/saros-dlmm",
