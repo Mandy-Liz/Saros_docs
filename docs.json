@@ -40,7 +40,9 @@
       "href": "https://t.me/+DLLPYFzvTzJmNTJh"
     }
   },
-  "navigation": {
+  "navigation": 
+  
+  {
     "versions": [
       {
         "version": "v1.0.0"
@@ -119,14 +121,17 @@
         ]
       },
       {
-        "tab": "Troubleshooting",
-        "pages": [
-         "troubleshooting/faq",
-         "troubleshooting/official-links"
-        ]
-      }
-    ]
-  }
-  }
-
-  
+       "tab": "Troubleshooting",
+        "groups": [
+          {
+            "group": "Troubleshooting",
+            "pages": [
+                "troubleshooting/faq",
+                "troubleshooting/official-links"
+              ]
+          }
+      ]
+   }
+ ]
+ }
+}
