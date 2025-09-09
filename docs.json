@@ -132,7 +132,7 @@
                         ]
                     },
                    {
-                        "dropdown": "Legal",
+                        "group": "Legal",
                         "pages": [
                             "introduction/saros-intro",
                             "introduction/saros-dlmm",
